@@ -1,0 +1,5 @@
+line one with TODO item
+line two normal
+line three with FIXME marker
+line four has both TODO and FIXME
+line five clean

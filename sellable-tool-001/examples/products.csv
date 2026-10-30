@@ -1,0 +1,11 @@
+id,product,category,price,stock
+1,Laptop,Electronics,999.99,50
+2,Mouse,Electronics,29.99,200
+3,Desk,Furniture,199.99,30
+4,Chair,Furniture,149.99,45
+5,Keyboard,Electronics,79.99,150
+6,Lamp,Furniture,39.99,80
+7,Monitor,Electronics,349.99,25
+8,Headphones,Electronics,59.99,120
+9,Bookshelf,Furniture,89.99,40
+10,Webcam,Electronics,49.99,90

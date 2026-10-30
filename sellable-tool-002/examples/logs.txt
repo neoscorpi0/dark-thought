@@ -1,0 +1,6 @@
+error: connection refused at 10.0.0.1
+warning: disk space low
+info: user login from 192.168.1.5
+error: timeout at 10.0.0.2
+info: user logout
+error: auth failed from 192.168.1.5

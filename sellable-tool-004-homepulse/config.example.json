@@ -1,0 +1,61 @@
+{
+  "_readme": "Edit this file, save it as config.json, then run: python homepulse.py",
+  "_tips": [
+    "Use your cameras' SUB-STREAM for the live view (lower res = far lighter, faster).",
+    "Cameras: 'scale' is the width sent to the browser (640 is plenty on a phone).",
+    "Hosts: set 'ssh' to get uptime/RAM/disk; set 'shutdown' to allow power-off; set 'mac' to allow Wake-on-LAN.",
+    "Change 'password' to something strong, or set env HOMEPULSE_PASSWORD."
+  ],
+  "title": "HomePulse",
+  "port": 5085,
+  "password": "change-me",
+  "refresh_seconds": 12,
+  "accent": "#4aa8ff",
+  "known_devices_max": 3,
+
+  "cameras": [
+    {
+      "id": "front",
+      "name": "Front Door",
+      "ip": "192.168.1.51",
+      "port": 554,
+      "url": "rtsp://user:pass@192.168.1.51:554/Streaming/Channels/102",
+      "scale": 640
+    },
+    {
+      "id": "backyard",
+      "name": "Backyard",
+      "ip": "192.168.1.52",
+      "port": 554,
+      "url": "rtsp://user:pass@192.168.1.52:554/stream2",
+      "scale": 640
+    }
+  ],
+
+  "hosts": [
+    {
+      "id": "server",
+      "name": "Home Server",
+      "ip": "192.168.1.10",
+      "os": "linux",
+      "ssh": "user@192.168.1.10",
+      "shutdown": true,
+      "mac": "aa:bb:cc:dd:ee:ff",
+      "warn": "This runs HomePulse itself — powering off takes the dashboard down."
+    },
+    {
+      "id": "desktop",
+      "name": "Gaming PC",
+      "ip": "192.168.1.20",
+      "os": "windows",
+      "ssh": "user@192.168.1.20",
+      "shutdown": true,
+      "mac": "11:22:33:44:55:66"
+    }
+  ],
+
+  "network": [
+    { "name": "Router",  "sub": "Main router",   "ip": "192.168.1.1", "url": "http://192.168.1.1" },
+    { "name": "Switch",  "sub": "Office switch",  "ip": "192.168.1.2", "url": "http://192.168.1.2" }
+  ]
+}

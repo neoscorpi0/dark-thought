@@ -1,0 +1,16 @@
+name,email,region,amount,date,status
+Alice Smith,alice@example.com,North,1500.00,2026-01-15,active
+Bob Jones,bob@example.com,South,800.50,2026-02-20,active
+Carol White,carol@example.com,East,2200.75,2026-01-30,active
+David Brown,david@example.com,West,450.00,2026-03-10,inactive
+Eve Davis,eve@example.com,North,1100.25,2026-02-28,active
+Frank Miller,frank@example.com,South,3200.00,2026-01-05,active
+Grace Lee,grace@example.com,East,750.00,2026-03-22,active
+Henry Wilson,henry@example.com,West,1800.50,2026-02-14,active
+Iris Taylor,iris@example.com,North,950.00,2026-03-01,inactive
+Jack Anderson,jack@example.com,South,2100.75,2026-01-25,active
+Alice Smith,alice@example.com,North,1500.00,2026-01-15,active
+Karen Thomas,karen@example.com,East,600.00,2026-02-10,active
+Leo Martinez,leo@example.com,West,1350.25,2026-03-15,active
+Mia Garcia,mia@example.com,North,2800.00,2026-01-20,active
+Noah Rodriguez,noah@example.com,South,420.50,2026-02-25,inactive
