@@ -1,4 +1,12 @@
-# Dark Thought · HomePulse
+# HomePulse
+
+**One phone-friendly page for your whole home lab.**
+
+![HomePulse screenshot](screenshot.png)
+
+> Part of [Dark Thought](../..). Python 3 standard library only — no dependencies, no cloud, no telemetry.
+
+---
 
 **One phone-friendly page for your whole home lab:** live camera wall, which computers
 and network gear are online, optional per-host stats over SSH, and one-tap shutdown /

@@ -1,4 +1,12 @@
-# SQLi Toolkit v1.0.0 — Learn, Practice, Scan
+# SQLSentinel
+
+**Find SQL injection in your own code — and practise on a target you own.**
+
+![SQLSentinel screenshot](screenshot.png)
+
+> Part of [Dark Thought](../..). Python 3 standard library only — no dependencies, no cloud, no telemetry.
+
+---
 
 A complete SQL injection learning and testing toolkit. Zero external dependencies for the scanner (uses only stdlib). Practice server requires only `sqlite3` (built into Python).
 

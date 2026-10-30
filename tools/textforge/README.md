@@ -1,4 +1,12 @@
-# TextForge v1.0.0
+# TextForge
+
+**Batch text and regex processing across whole folders.**
+
+![TextForge screenshot](screenshot.png)
+
+> Part of [Dark Thought](../..). Python 3 standard library only — no dependencies, no cloud, no telemetry.
+
+---
 
 Smart text and regex processor. Zero external dependencies. Python 3.6+.
 

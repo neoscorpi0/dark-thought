@@ -1,4 +1,12 @@
-# CSVFlow — Smart CSV Processor
+# CSVFlow
+
+**Clean, split, merge and convert CSV from the command line.**
+
+![CSVFlow screenshot](screenshot.png)
+
+> Part of [Dark Thought](../..). Python 3 standard library only — no dependencies, no cloud, no telemetry.
+
+---
 
 A self-contained CLI tool for filtering, transforming, merging, and analyzing CSV and JSON data files. Zero external dependencies — just Python 3.
 
