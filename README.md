@@ -1,7 +1,9 @@
 # Dark Thought
 
-Small, sharp tools with no dependencies and no cloud. Each one does a single job well,
-reads only what you give it, and never phones home.
+Small, sharp **command-line tools** with no dependencies and no cloud: a **CSV** filter and
+merger, a **batch text find-and-replace** editor, a **SQL injection scanner**, and a
+**home lab monitor**. Each does one job well, reads only what you give it, and never
+phones home. Python standard library only — no `pip install`, no account, no telemetry.
 
 Built by 42. Named after the shadow of a bigger thing.
 
@@ -11,12 +13,15 @@ Built by 42. Named after the shadow of a bigger thing.
 
 | Tool | What it does |
 |---|---|
-| **[**csvflow**](tools/csvflow/)** | Clean, split, merge, dedupe and convert CSV files from the command line. No pandas, no surprises. |
-| **[**textforge**](tools/textforge/)** | Batch text processing: normalise, dedupe, extract, rewrite line patterns across whole folders. |
-| **[**sqlsentinel**](tools/sqlsentinel/)** | Static SQL-injection hunter for your own code, plus an **intentionally vulnerable practice server** to train against. |
-| **[**homepulse**](tools/homepulse/)** | A tiny always-on health check for your own machines: services, disk, temperature, and a notification when something changes. |
+| **[CSV Workshop](tools/csv-workshop/)** | Filter, split, merge, dedupe and convert **CSV** files from the command line. |
+| **[Text Batch Editor](tools/text-batch-editor/)** | **Find and replace** across thousands of text files at once — regex, normalise, extract. |
+| **[SQL Injection Scanner](tools/sql-injection-scanner/)** | Scan your **own** web app for SQL injection, with a practice target to learn on. |
+| **[Home Lab Monitor](tools/home-lab-monitor/)** | One page for your whole **home lab**: services, disks, temperature, Wake-on-LAN. |
 
-Each folder has its own README, examples and licence.
+Each tool has its own README, screenshot, examples and MIT licence.
+
+**Keywords:** csv toolkit · batch find and replace · sql injection scanner · homelab dashboard ·
+self-hosted monitoring · wake on lan · command line tools · python cli · no dependencies · no telemetry
 
 ---
 

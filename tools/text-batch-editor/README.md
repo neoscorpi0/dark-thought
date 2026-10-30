@@ -1,4 +1,14 @@
-# TextForge
+# Text Batch Editor
+
+**Find and replace across thousands of text files at once.**
+
+![Text Batch Editor screenshot](screenshot.png)
+
+> Part of [Dark Thought](../..). Python 3 standard library only — no dependencies, no install, no cloud, no telemetry.
+
+**Keywords:** batch find and replace · bulk text editor · regex replace · replace text in multiple files · mass text edit · search and replace · log file processing · command line text tool
+
+---
 
 **Batch text and regex processing across whole folders.**
 
@@ -27,40 +37,40 @@ Smart text and regex processor. Zero external dependencies. Python 3.6+.
 
 ```bash
 # Search for TODOs with 2 lines of context
-python3 textforge.py find "TODO|FIXME" src/ --context 2
+python3 textbatcheditor.py find "TODO|FIXME" src/ --context 2
 
 # Dry-run replace to preview changes
-python3 textforge.py replace "old_api" "new_api" *.py --dry-run
+python3 textbatcheditor.py replace "old_api" "new_api" *.py --dry-run
 
 # Extract all URLs from log files into CSV
-python3 textforge.py extract "https?://\S+" logs/ --format csv
+python3 textbatcheditor.py extract "https?://\S+" logs/ --format csv
 
 # Count errors, warnings, and fatals per file
-python3 textforge.py count "error" "warn" "fatal" logs/ --per-file
+python3 textbatcheditor.py count "error" "warn" "fatal" logs/ --per-file
 
 # Text statistics with top 10 words
-python3 textforge.py stats README.md --top 10
+python3 textbatcheditor.py stats README.md --top 10
 
 # Split a file by delimiter
-python3 textforge.py split data.txt --delimiter='---' --skip-empty
+python3 textbatcheditor.py split data.txt --delimiter='---' --skip-empty
 
 # Join files back together
-python3 textforge.py join part_*.txt -o combined.txt -s=$'\n---\n'
+python3 textbatcheditor.py join part_*.txt -o combined.txt -s=$'\n---\n'
 ```
 
 ## Install
 
-No install needed. Copy `textforge.py` anywhere and run:
+No install needed. Copy `textbatcheditor.py` anywhere and run:
 
 ```bash
-python3 /path/to/textforge.py find "pattern" files/
+python3 /path/to/textbatcheditor.py find "pattern" files/
 ```
 
 Or add to your PATH:
 
 ```bash
-chmod +x textforge.py
-sudo ln -s $(pwd)/textforge.py /usr/local/bin/textforge
+chmod +x textbatcheditor.py
+sudo ln -s $(pwd)/textbatcheditor.py /usr/local/bin/textforge
 ```
 
 ## Requirements

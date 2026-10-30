@@ -1,4 +1,14 @@
-# HomePulse
+# Home Lab Monitor
+
+**One page for your whole home lab: services, disks, temperature and Wake-on-LAN.**
+
+![Home Lab Monitor screenshot](screenshot.png)
+
+> Part of [Dark Thought](../..). Python 3 standard library only — no dependencies, no install, no cloud, no telemetry.
+
+**Keywords:** home lab dashboard · home lab monitor · server monitoring · self hosted dashboard · wake on lan · wake on lan tool · uptime monitor · cpu temperature monitor · disk space monitor · homelab
+
+---
 
 **One phone-friendly page for your whole home lab.**
 
@@ -39,13 +49,13 @@ shut the gaming rig down from the couch?" HomePulse is that one page.
 pip install flask waitress
 # ffmpeg must be on PATH (for cameras)
 cp config.example.json config.json     # edit it
-python homepulse.py                    # http://<this-pc>:5085
+python homelabmonitor.py                    # http://<this-pc>:5085
 ```
 
 ### Windows (easy)
 1. Install Python 3.9+ and ffmpeg (`winget install Gyan.FFmpeg`).
 2. `pip install flask waitress`
-3. Edit `config.json`, then `python homepulse.py`.
+3. Edit `config.json`, then `python homelabmonitor.py`.
    (Optional: a `.exe` build is provided in the repo releases.)
 
 ## Config

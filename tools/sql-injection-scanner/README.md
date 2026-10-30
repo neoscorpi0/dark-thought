@@ -1,4 +1,14 @@
-# SQLSentinel
+# SQL Injection Scanner
+
+**Scan your own web app for SQL injection — with a practice target to learn on.**
+
+![SQL Injection Scanner screenshot](screenshot.png)
+
+> Part of [Dark Thought](../..). Python 3 standard library only — no dependencies, no install, no cloud, no telemetry.
+
+**Keywords:** sql injection scanner · sqli scanner · sql injection test · web security scanner · penetration testing tool · vulnerability scanner · sql injection practice · ethical hacking practice · python security tool
+
+---
 
 **Find SQL injection in your own code — and practise on a target you own.**
 
@@ -14,7 +24,7 @@ A complete SQL injection learning and testing toolkit. Zero external dependencie
 
 | Tool | Purpose | File |
 |------|---------|------|
-| **SQLi Scanner** | Automated vulnerability scanner | `sql_scanner.py` |
+| **SQLi Scanner** | Automated vulnerability scanner | `sqlscanner.py` |
 | **Practice Server** | Deliberately vulnerable web app | `practice_server.py` |
 
 ## Quick Start
@@ -35,19 +45,19 @@ Open `http://127.0.0.1:8888` in your browser. Try the challenges:
 
 ```bash
 # Basic scan
-python3 sql_scanner.py "http://target.com/page?id=1"
+python3 sqlscanner.py "http://target.com/page?id=1"
 
 # Deep scan (includes UNION probing)
-python3 sql_scanner.py "http://target.com/page?id=1" --deep
+python3 sqlscanner.py "http://target.com/page?id=1" --deep
 
 # With authentication
-python3 sql_scanner.py "http://target.com/page?id=1" --cookie "session=abc123"
+python3 sqlscanner.py "http://target.com/page?id=1" --cookie "session=abc123"
 
 # Scan multiple URLs
-python3 sql_scanner.py -f urls.txt --json -o results.json
+python3 sqlscanner.py -f urls.txt --json -o results.json
 
 # POST-based testing
-python3 sql_scanner.py "http://target.com/login" --method POST --param "username=admin" --param "password=test"
+python3 sqlscanner.py "http://target.com/login" --method POST --param "username=admin" --param "password=test"
 ```
 
 ### 3. Practice Against Yourself
@@ -57,7 +67,7 @@ python3 sql_scanner.py "http://target.com/login" --method POST --param "username
 python3 practice_server.py
 
 # Terminal 2: scan it
-python3 sql_scanner.py "http://127.0.0.1:8888/products?category=Electronics" --deep
+python3 sqlscanner.py "http://127.0.0.1:8888/products?category=Electronics" --deep
 ```
 
 ## Scanner Detection Methods
