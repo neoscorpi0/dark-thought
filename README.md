@@ -39,6 +39,17 @@ not a service.
 
 ---
 
+## Support the work
+
+These tools are free and MIT-licensed — no subscription, no account, nothing gated.
+
+If one of them saved you an afternoon, you can [buy me a coffee](https://ko-fi.com/illici7) —
+pay what you want, and it goes towards better hardware to build more of them on.
+
+*Found a bug? Open an issue. Bug fixes are free, forever.*
+
+---
+
 ## Licence
 
 MIT, per tool. See each folder's `LICENSE`.
